@@ -87,10 +87,11 @@
     margin-right: 20%;
 }
 .databox2 {
-    /* justify-content: center;
-    text-align: right;
+    display: flex;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; */
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+    font-size: large;
     color: rgb(130, 128, 126);
 }
 .phisical {
