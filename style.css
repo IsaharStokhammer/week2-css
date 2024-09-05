@@ -1,0 +1,174 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: rgb(238, 230, 238);
+    height: 200%;
+    width: 100%;
+}
+.top {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(52, 91, 45);
+    color: white;
+}
+.navBar{
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1
+}
+.navLink {
+    border-radius: 10px;
+    padding: 1%;
+    color: white;
+}
+.spaceHolder{
+    visibility: hidden;
+}
+.spaceHolder2{
+    visibility: hidden;
+    margin: 3%;;
+}
+
+.welcome {
+    height: 12vh;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 0 5px rgb(222, 227, 221);
+}
+.upcoming {
+    margin: 2%;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 0 5px rgb(222, 227, 221);
+}
+.footer {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 7vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(52, 91, 45);
+    color: white;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+.databox {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    max-height: 5%;
+    border-radius: 15px;
+    padding: 1%;
+    color: rgb(91, 32, 111);
+    background-color:rgb(206, 203, 207);
+    box-shadow: inset 2px 2px 5px rgb(222, 227, 221);
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.databox:hover {
+    background-color: rgb(147, 150, 146);
+}
+.databox1 {
+    text-align: left;
+    margin-right: 20%;
+}
+.databox2 {
+    /* justify-content: center;
+    text-align: right;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; */
+    color: rgb(130, 128, 126);
+}
+.phisical {
+    background-color: rgb(243, 178, 178);
+    border-radius: 7px;
+    padding: 3%;
+}
+.technical {
+    background-color: rgb(147, 219, 246);
+    border-radius: 7px;
+    padding: 3%;
+}
+.tactical {
+    background-color: rgb(239, 217, 109);
+    border-radius: 7px;
+    padding: 3%;
+}
+#dagesh {
+    font-weight: bold;
+}
+.details {
+    margin: 2%;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 0 5px rgb(222, 227, 221);
+}
+.sign-up {
+    
+    margin: 2%;
+    color: rgb(51, 98, 5);
+}
+.formBox{
+    /* margin: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%; */
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    background-color: rgb(219, 213, 219);
+    box-shadow: inset 0 0 5px rgb(222, 227, 221);
+}
+.formInput{
+    display: block;
+    width: 100%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login {
+    background-color: #06472f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navBar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar2 div {
+  margin: 0 10px;
+}
+
+
+
+
