@@ -11,6 +11,9 @@
     background-color: rgb(52, 91, 45);
     color: white;
 }
+.logo {
+    font-size: 22px;
+}
 .navBar{
     border-radius: 5px;
     align-items: center;
